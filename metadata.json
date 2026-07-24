@@ -1,0 +1,6 @@
+{
+  "name": "Ask The Place",
+  "description": "AI travel companion for landmark photo scanning, cultural deep-dives, myths, best photo spots, tourist mistakes, local etiquette, and context-aware guide chat.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
