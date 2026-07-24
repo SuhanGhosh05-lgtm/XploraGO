@@ -32,7 +32,7 @@ export const GemmaChat: React.FC<GemmaChatProps> = ({
         {
           id: `welcome-${landmark.id}`,
           sender: 'gemma',
-          text: `Hello! I'm Gemma, your personal context-aware guide for ${landmark.name}. Ask me anything about its hidden history, local stories, photo angles, or authentic nearby food!`,
+          text: `Hello! I'm Gemma, your AI travel companion. Ask me about places, hidden history, local stories, photo spots, culture, or authentic food recommendations!`,
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         },
       ]);
@@ -184,7 +184,7 @@ export const GemmaChat: React.FC<GemmaChatProps> = ({
               <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
             </h3>
             <p className="text-[11px] text-slate-400">
-              Context Guide for {landmark.name}
+             Your AI Travel Companion
             </p>
           </div>
         </div>
@@ -296,7 +296,7 @@ export const GemmaChat: React.FC<GemmaChatProps> = ({
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            placeholder={`Ask Gemma about ${landmark.name}...`}
+            placeholder={`Ask Gemma about any place...`}
             className="flex-1 bg-slate-950 border border-slate-800 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-indigo-500 transition-colors"
           />
 
