@@ -1,3 +1,6 @@
+import cors from "cors";
+
+
 import express from 'express';
 import path from 'path';
 import dotenv from 'dotenv';
@@ -11,6 +14,10 @@ console.log("MODEL_NAME =", process.env.MODEL_NAME);
 
 const app = express();
 const PORT = 3000;
+
+app.use(cors({
+  origin: "https://xplorago.netlify.app"
+}));
 
 // Body parser
 app.use(express.json({ limit: '20mb' }));
