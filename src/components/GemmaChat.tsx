@@ -127,16 +127,19 @@ export const GemmaChat: React.FC<GemmaChatProps> = ({
 
     try {
       console.log("Current landmark:", landmark);
-      const response = await fetch('/api/ask-gemma', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          question: queryText,
-          landmarkName: landmark.name,
-          landmarkContext: landmark,
-          conversationHistory: messages.map((m) => ({ sender: m.sender, text: m.text })),
-        }),
-      });
+     const response = await fetch('https://xplorago.onrender.com/api/ask-gemma', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    question: queryText,
+    landmarkName: landmark.name,
+    landmarkContext: landmark,
+    conversationHistory: messages.map((m) => ({
+      sender: m.sender,
+      text: m.text,
+    })),
+  }),
+});
 
       const data = await response.json();
       const gemmaText = data.answer || "I'm right here exploring with you! What else would you like to know?";

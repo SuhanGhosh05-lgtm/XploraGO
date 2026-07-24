@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="hidden sm:block">
               <div className="flex items-center gap-1.5">
                 <h1 className="font-extrabold text-base tracking-tight text-white group-hover:text-cyan-300 transition-colors">
-                  Ask The Place
+                  XploraGO
                 </h1>
                 <span className="text-[9px] font-bold px-1.5 py-0.2 rounded-md bg-indigo-500/10 text-cyan-300 border border-indigo-500/20">
                   AI
