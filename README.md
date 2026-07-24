@@ -187,5 +187,31 @@ Developed as part of the **Google Developer Groups (GDG) Build with Gemma Hackat
 ### 🌍 Travel Smarter. Explore Deeper. Experience More.
 
 **Made with ❤️ using Google Gemma 4**
+---
 
+# 🌐 Live Demo
+
+🚀 **Try XploraGO here:**
+
+**https://xplorago.netlify.app**
+
+---
+
+# 👥 Team
+
+### **ActivFly**
+
+Developed with ❤️ by **Team ActivFly** for the **Google Developer Groups (GDG) Build with Gemma Hackathon**.
+
+---
+
+<div align="center">
+
+### 🌍 Explore Smarter. Travel Better. Experience More.
+
+⭐ If you enjoyed this project, don't forget to leave a star!
+
+Built with ❤️ by **ActivFly** using **Google Gemma 4**
+
+</div>
 </div>
