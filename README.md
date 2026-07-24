@@ -201,7 +201,7 @@ Developed as part of the **Google Developer Groups (GDG) Build with Gemma Hackat
 
 ### **ActivFly**
 
-Developed with ❤️ by **Team ActivFly** for the **Google Developer Groups (GDG) Build with Gemma Hackathon**.
+Developed by **Team ActivFly** for the **Google Developer Groups (GDG) Build with Gemma Hackathon**.
 
 ---
 
@@ -211,7 +211,7 @@ Developed with ❤️ by **Team ActivFly** for the **Google Developer Groups (GD
 
 ⭐ If you enjoyed this project, don't forget to leave a star!
 
-Built with ❤️ by **ActivFly** using **Google Gemma 4**
+Built by **ActivFly** using **Google Gemma 4**
 
 </div>
 </div>
