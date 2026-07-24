@@ -2,212 +2,190 @@
 
 # 🌍 XploraGO
 
-### *Explore the World Like a Local*
+### *Explore Like a Local with AI*
 
-<img src="assets/banner.png" width="900"/>
+**An AI-powered travel companion built with Google Gemma 4 that helps travelers discover destinations through personalized recommendations, cultural insights, landmark recognition, and local experiences.**
 
-<p>
-An AI-powered travel companion built with <b>Google Gemma 4</b> that transforms the way people discover, understand, and experience new destinations.
-</p>
+[![Built with Gemma](https://img.shields.io/badge/Built%20with-Gemma%204-blue)]()
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)]()
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)]()
+[![Express](https://img.shields.io/badge/Express.js-000000?logo=express)]()
+[![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite)]()
 
-<p>
+---
 
-<img src="https://img.shields.io/badge/Built%20With-Gemma%204-4285F4?style=for-the-badge"/>
-
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript"/>
-
-<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"/>
-
-</p>
-
-🏆 **Built for Google Developer Groups Build with Gemma Hackathon**
+### 🏆 Built for the **Google Developer Groups (GDG) Build with Gemma Hackathon**
 
 </div>
 
 ---
 
-# ✨ Why XploraGO?
+# ✨ Overview
 
-Planning a trip usually means switching between Google Maps, travel blogs, YouTube, translators, restaurant reviews, and countless websites.
+Traveling should be about discovering new places—not juggling multiple apps for maps, culture, restaurants, hidden attractions, and travel tips.
 
-**XploraGO combines all of these into one intelligent travel companion.**
+**XploraGO** brings everything together in one intelligent travel companion powered by **Google Gemma 4**. Whether you're planning your trip or exploring a destination, XploraGO provides personalized recommendations, contextual insights, and meaningful local knowledge through natural conversations.
 
-Whether you're standing in front of a historic monument, looking for authentic food, searching for hidden gems, or simply wondering what locals recommend—XploraGO gives you contextual answers in seconds.
-
-Instead of searching...
-
-You simply ask.
-
----
-
-# 📸 Preview
-
-| Home | Landmark | Recommendations |
-|------|-----------|-----------------|
-| <img src="assets/home.png"/> | <img src="assets/landmark.png"/> | <img src="assets/recommendations.png"/> |
+Instead of acting like a search engine, XploraGO feels like traveling with a knowledgeable local guide.
 
 ---
 
 # 🚀 Features
 
-✅ AI Landmark Recognition
-
-✅ Context-Aware Travel Assistant
-
-✅ Hidden Local Gems
-
-✅ Cultural Insights
-
-✅ Smart Safety Recommendations
-
-✅ Food Recommendations
-
-✅ Photo Spot Discovery
-
-✅ Responsive Modern UI
+## 📸 AI Landmark Recognition
+Upload an image or enter the name of a landmark to instantly learn about its history, architecture, cultural significance, myths, and interesting facts.
 
 ---
 
-# 🏗 Architecture
-
-```text
-User
-
-   │
-
-React + TypeScript
-
-   │
-
-Node + Express
-
-   │
-
-Google Gemma 4
-
-   │
-
-Travel Intelligence
-
-   │
-
-Personalized Response
-```
+## 🧭 Personalized Travel Assistant
+Receive recommendations tailored to your interests, destination, travel style, and preferences through natural conversations.
 
 ---
 
-# 💡 What Makes XploraGO Different?
-
-🌍 Doesn't just explain places.
-
-🍜 Recommends authentic local experiences.
-
-🏛 Explains culture and traditions.
-
-📍 Suggests places locals actually visit.
-
-🛡 Gives contextual travel advice.
-
-✨ Feels like chatting with a local guide.
+## 🏛 Rich Cultural Insights
+Explore the stories behind monuments, traditions, architecture, festivals, and local customs that make every destination unique.
 
 ---
 
-# 🛠 Tech Stack
-
-| Frontend | Backend | AI |
-|-----------|----------|----|
-| React | Node.js | Google Gemma 4 |
-| TypeScript | Express | Google GenAI SDK |
-| Tailwind CSS | REST APIs | |
+## 🌟 Hidden Local Gems
+Go beyond tourist attractions with recommendations for hidden cafés, scenic viewpoints, authentic restaurants, and lesser-known experiences.
 
 ---
 
-# ⚙ Installation
+## 🍜 Authentic Food Recommendations
+Discover regional specialties, local dishes, cafés, and must-visit restaurants based on your preferences.
+
+---
+
+## 📷 Best Photo Spots
+Find the perfect places to capture memorable moments, including scenic viewpoints and iconic photography locations.
+
+---
+
+## 🛡 Smart Travel Safety Tips
+Receive destination-aware travel advice, safety recommendations, and practical tips for a safer travel experience.
+
+---
+
+## 📱 Modern Responsive Interface
+A clean, responsive interface built for both desktop and mobile devices, ensuring a smooth experience wherever you travel.
+
+---
+
+# 🏗 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | React, TypeScript, Vite, Tailwind CSS |
+| **Backend** | Node.js, Express |
+| **AI** | Google Gemma 4, Google GenAI SDK |
+
+---
+
+# ⚙️ Installation
+
+## Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/xplorago
+git clone https://github.com/yourusername/xplorago.git
 
 cd xplorago
+```
 
+## Install dependencies
+
+```bash
 npm install
 ```
 
-Create
+## Configure Environment Variables
 
-```
-.env.local
-```
+Create a `.env.local` file in the project root.
 
 ```env
-GEMINI_API_KEY=YOUR_API_KEY
-
+GEMINI_API_KEY=your_api_key
 MODEL_NAME=models/gemma-4-31b-it
 ```
 
-Run
+---
+
+# ▶ Running the Project
+
+### Development
 
 ```bash
 npm run dev
 ```
 
+### Production Build
+
+```bash
+npm run build
+```
+
+### Start Production Server
+
+```bash
+npm start
+```
+
+---
+
+# 🧠 Powered by Gemma 4
+
+Google **Gemma 4** serves as the intelligence behind XploraGO by enabling:
+
+- Context-aware conversations
+- Personalized travel recommendations
+- Landmark understanding
+- Cultural insights
+- Intelligent destination guidance
+- Natural language interactions
+
+Rather than simply returning search results, Gemma understands user intent and generates meaningful travel assistance tailored to every journey.
+
 ---
 
 # 🎯 Project Vision
 
-Travel should feel immersive.
+Our vision is to create a travel companion that helps people **experience destinations rather than simply visit them.**
 
-XploraGO helps users experience destinations instead of simply visiting them.
+XploraGO combines artificial intelligence with local knowledge to help travelers:
 
-By combining AI with local knowledge, we hope to make travel:
-
-- Smarter
-
-- Safer
-
-- More authentic
-
-- More memorable
+- Explore beyond popular tourist attractions
+- Understand local culture
+- Discover authentic experiences
+- Make informed travel decisions
+- Travel with greater confidence
 
 ---
 
-# 🔮 Roadmap
+# 🔮 Future Improvements
 
-- Offline AI
-
-- Smart Budget Planner
-
-- AI Itinerary Generator
-
-- Flight Tracking
-
-- Hotel Comparison
-
-- Offline Maps
-
-- AR Landmark Detection
-
-- Collaborative Trips
-
-- Expense Tracking
+- 🗺 Offline travel assistance
+- ✈ AI itinerary generation
+- 💰 Smart budget planner
+- 📸 Real-time landmark recognition
+- 🏨 Hotel recommendations
+- 🚆 Public transport integration
+- 🌦 Live weather intelligence
+- 🪪 Visa & travel document assistance
+- 👥 Collaborative trip planning
+- 📍 Offline maps
 
 ---
 
-# 🤝 Team
+# 👨‍💻 Team
 
-Built with ❤️ for the
-
-## Google Developer Groups
-
-### Build with Gemma Hackathon
+Developed as part of the **Google Developer Groups (GDG) Build with Gemma Hackathon**.
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a star ⭐
+### 🌍 Travel Smarter. Explore Deeper. Experience More.
 
-Made with ❤️ using Google Gemma 4
+**Made with ❤️ using Google Gemma 4**
 
 </div>
