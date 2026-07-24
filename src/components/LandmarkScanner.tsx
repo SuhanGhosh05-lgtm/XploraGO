@@ -172,7 +172,7 @@ export const LandmarkScanner: React.FC<LandmarkScannerProps> = ({
     }, 1100);
 
     try {
-      const response = await fetch('/api/scan-landmark', {
+      const response = await fetch('https://xplorago.onrender.com/api/scan-landmark', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
