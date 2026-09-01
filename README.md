@@ -4,7 +4,7 @@
 
 ### *Explore Like a Local with AI*
 
-**An AI-powered travel companion built with Google Gemma 4 that helps travelers discover destinations through personalized recommendations, cultural insights, landmark recognition, and local experiences.**
+**An AI-powered travel companion built with Google Gemma 4 that helps travelers discover destinations through cultural insights, landmark recognition, and local experiences.**
 
 [![Built with Gemma](https://img.shields.io/badge/Built%20with-Gemma%204-blue)]()
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)]()
